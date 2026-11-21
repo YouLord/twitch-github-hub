@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>twitch-github-hub — 4 фичи для стримера</title>
+<style>
+  :root{--bg:#0b0a10;--panel:#141220;--line:#282240;--text:#f3f0ff;--muted:#a49cc4;--accent:#9146ff;--accent2:#bf94ff;--green:#3ddc97}
+  *{box-sizing:border-box}
+  body{
+    margin:0;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    background:radial-gradient(1000px 600px at 10% -10%,rgba(145,70,255,.3),transparent 60%),
+      radial-gradient(800px 500px at 100% 0%,rgba(0,229,255,.12),transparent 55%),var(--bg);
+    min-height:100vh;
+  }
+  .wrap{max-width:1040px;margin:0 auto;padding:64px 24px 80px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent2);font-weight:800}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 14px var(--accent)}
+  h1{font-size:clamp(30px,5.4vw,52px);line-height:1.05;letter-spacing:-.03em;margin:16px 0 14px}
+  h1 span{background:linear-gradient(92deg,var(--accent),#00e5ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lead{color:var(--muted);font-size:17px;line-height:1.65;max-width:66ch;margin:0 0 32px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:34px}
+  .card{display:block;text-decoration:none;color:inherit;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;transition:transform .16s ease,border-color .16s ease}
+  .card:hover{transform:translateY(-3px);border-color:var(--accent)}
+  .card .ico{font-size:22px;margin-bottom:10px}
+  .card h3{margin:0 0 7px;font-size:16px}
+  .card p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.55}
+  .card code{color:var(--accent2);background:rgba(145,70,255,.12);padding:1px 6px;border-radius:5px;font-size:12.5px}
+  h2{font-size:19px;margin:36px 0 14px;letter-spacing:-.01em}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .row{display:flex;align-items:center;gap:12px;padding:13px 18px;border-bottom:1px solid var(--line);font-size:13.5px}
+  .row:last-child{border-bottom:0}
+  .row .k{color:var(--muted);min-width:150px}
+  .row a,.row code{color:var(--accent2);text-decoration:none;word-break:break-all;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+  .row a:hover{text-decoration:underline}
+  .badge{font-size:11px;font-weight:700;padding:2px 7px;border-radius:6px;background:rgba(61,220,151,.14);color:var(--green);border:1px solid rgba(61,220,151,.3)}
+  footer{margin-top:44px;color:var(--muted);font-size:13px;line-height:1.7}
+  footer code{color:var(--accent2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow"><span class="dot"></span> twitch × github</div>
+  <h1>Четыре штуки для стримера<br>в <span>одном репозитории</span></h1>
+  <p class="lead">Живая статистика GitHub на стриме, автообновляемый README, бот, который пишет в чат о PR и релизах, и галерея клипов, которую собирают зрители. Ноль зависимостей, работает на бесплатных тарифах.</p>
+
+  <div class="grid">
+    <a class="card" href="/overlay">
+      <div class="ico">🖥️</div>
+      <h3>B · Оверлей для OBS</h3>
+      <p>Коммиты, ±строки, звёзды и последний коммит прямо в кадре. Добавь как Browser Source.</p>
+    </a>
+    <a class="card" href="https://github.com" target="_blank" rel="noopener">
+      <div class="ico">🔴</div>
+      <h3>A · Live-бейдж в README</h3>
+      <p>GitHub Action раз в 10 минут пишет в профиль статус эфира. Команда <code>npm run update:readme</code>.</p>
+    </a>
+    <a class="card" href="#api">
+      <div class="ico">🤖</div>
+      <h3>C · Бот GitHub → чат</h3>
+      <p>Вебхук присылает событие, бот пишет в чат. Команды <code>!gh</code> <code>!stats</code> <code>!clip</code>.</p>
+    </a>
+    <a class="card" href="/gallery">
+      <div class="ico">🎬</div>
+      <h3>D · Галерея клипов</h3>
+      <p>Зрители кидают <code>!clip</code> — клипы попадают на GitHub Pages.</p>
+    </a>
+  </div>
+
+  <h2>Эндпоинты</h2>
+  <div class="panel">
+    <div class="row"><span class="k">Оверлей</span><a href="/overlay">/overlay</a><span class="badge">OBS</span></div>
+    <div class="row"><span class="k">Галерея</span><a href="/gallery">/gallery</a></div>
+    <div class="row"><span class="k">Статистика</span><a href="/api/stats">/api/stats</a></div>
+    <div class="row"><span class="k">Live-статус</span><a href="/api/live">/api/live</a></div>
+    <div class="row"><span class="k">Клипы</span><a href="/api/clips">/api/clips</a></div>
+    <div class="row"><span class="k">События</span><a href="/api/events">/api/events</a></div>
+    <div class="row"><span class="k">GitHub webhook</span><code>POST /webhook</code></div>
+    <div class="row"><span class="k">Здоровье</span><a href="/healthz">/healthz</a></div>
+  </div>
+
+  <h2 id="api">Быстрый старт</h2>
+  <div class="panel">
+    <div class="row"><span class="k">1. Конфиг</span><code>cp .env.example .env</code></div>
+    <div class="row"><span class="k">2. Запуск</span><code>npm start</code></div>
+    <div class="row"><span class="k">3. Демо</span><code>npm run demo</code></div>
+    <div class="row"><span class="k">4. Галерея</span><code>npm run build:gallery</code></div>
+    <div class="row"><span class="k">5. README</span><code>npm run update:readme</code></div>
+  </div>
+
+  <footer>
+    Без токенов всё работает в демо-режиме с мок-данными. Подключи <code>TWITCH_CLIENT_ID</code>, <code>TWITCH_CLIENT_SECRET</code> и <code>GITHUB_REPO</code> — цифры станут настоящими.
+  </footer>
+</div>
+</body>
+</html>

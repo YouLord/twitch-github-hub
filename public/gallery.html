@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Клипы · your_channel</title>
+<meta name="description" content="Лучшие моменты стрима your_channel — собраны зрителями через !clip">
+<style>
+  :root{
+    --bg:#0c0b11; --panel:#15131d; --panel-2:#1d1a28; --line:#2b2640;
+    --text:#f2effb; --muted:#a49cc4; --accent:#9146ff; --accent-2:#bf94ff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; color:var(--text); background:
+      radial-gradient(1100px 600px at 12% -10%, rgba(145,70,255,.28), transparent 60%),
+      radial-gradient(900px 500px at 95% 0%, rgba(0,229,255,.12), transparent 55%),
+      var(--bg);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  }
+  header{max-width:1180px;margin:0 auto;padding:56px 24px 12px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2);font-weight:700}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent)}
+  h1{margin:14px 0 10px;font-size:clamp(28px,5vw,46px);line-height:1.08;letter-spacing:-.02em}
+  h1 span{background:linear-gradient(92deg,var(--accent),#00e5ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:var(--muted);margin:0 0 22px;max-width:60ch;line-height:1.6}
+  .stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+  .stat{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:14px}
+  .stat b{font-size:17px}
+  .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:11px;text-decoration:none;font-weight:650;font-size:14px;border:1px solid var(--line);color:var(--text);background:var(--panel);transition:transform .15s ease,border-color .15s}
+  .btn:hover{transform:translateY(-2px);border-color:var(--accent)}
+  .btn.primary{background:linear-gradient(96deg,var(--accent),#6a3ff5);border-color:transparent;box-shadow:0 10px 30px rgba(145,70,255,.32)}
+  main{max-width:1180px;margin:0 auto;padding:32px 24px 80px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;animation:rise .5s ease both}
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .thumb{position:relative;display:block;aspect-ratio:16/9;background:#000;overflow:hidden;text-decoration:none}
+  .thumb iframe{width:100%;height:100%;border:0;display:block}
+  .ph{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:10px;padding:20px;background:linear-gradient(135deg,rgba(145,70,255,.42),rgba(0,229,255,.18)),#191527}
+  .ph span{font-size:11px;font-weight:800;letter-spacing:.18em;color:#fff;opacity:.75}
+  .ph-title{font-size:16px;font-weight:700;line-height:1.35}
+  .dur{position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,.78);border-radius:7px;padding:3px 8px;font-size:12px;font-weight:600}
+  .body{padding:14px 16px 16px}
+  h3{margin:0 0 8px;font-size:15px;line-height:1.4;font-weight:650}
+  .meta{display:flex;justify-content:space-between;color:var(--muted);font-size:12.5px}
+  .by{margin-top:8px;font-size:12px;color:var(--accent-2)}
+  .empty{margin:40px 0;padding:36px;border:1px dashed var(--line);border-radius:16px;text-align:center;color:var(--muted);line-height:1.7;background:rgba(255,255,255,.02)}
+  .empty code{background:#221d33;color:var(--accent-2);padding:2px 7px;border-radius:6px;font-size:13px}
+  footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;color:var(--muted);font-size:13px}
+  footer a{color:var(--accent-2)}
+  .demo-note{margin-top:18px;padding:12px 16px;border-radius:12px;border:1px solid rgba(145,70,255,.35);background:rgba(145,70,255,.1);font-size:13px;color:var(--accent-2)}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow"><span class="dot"></span> highlights</div>
+  <h1>Клипы канала <span>your_channel</span></h1>
+  <p class="sub">Моменты, которые зрители сохранили командой <b>!clip</b> в чате. Свежие — сверху.</p>
+  <div class="stats">
+    <div class="stat">🎬 <b>3</b> клипов</div>
+    <div class="stat">👀 <b>4 425</b> просмотров</div>
+  </div>
+  <div class="actions">
+    <a class="btn primary" href="https://twitch.tv/your_channel" target="_blank" rel="noopener">▸ Смотреть стрим</a>
+    
+  </div>
+  <div class="demo-note">Демо-режим: карточки-заглушки. Подключи токены Twitch — и здесь появятся живые клипы.</div>
+</header>
+<main>
+  <div class="grid">
+      <article class="card" style="animation-delay:0ms">
+        <a class="thumb" href="#" target="_blank" rel="noopener"><div class="ph"><span>DEMO</span><div class="ph-title">Первый коммит после 40 минут страданий</div></div>
+          <span class="dur">0:29</span>
+        </a>
+        <div class="body">
+          <h3>Первый коммит после 40 минут страданий</h3>
+          <div class="meta">
+            <span>👀 1 240</span>
+            <span>19 ноября 2026 г.</span>
+          </div>
+          
+        </div>
+      </article>
+      <article class="card" style="animation-delay:40ms">
+        <a class="thumb" href="#" target="_blank" rel="noopener"><div class="ph"><span>DEMO</span><div class="ph-title">Зритель кинул !gh и стек отрисовался в оверлее</div></div>
+          <span class="dur">0:19</span>
+        </a>
+        <div class="body">
+          <h3>Зритель кинул !gh и стек отрисовался в оверлее</h3>
+          <div class="meta">
+            <span>👀 874</span>
+            <span>16 ноября 2026 г.</span>
+          </div>
+          
+        </div>
+      </article>
+      <article class="card" style="animation-delay:80ms">
+        <a class="thumb" href="#" target="_blank" rel="noopener"><div class="ph"><span>DEMO</span><div class="ph-title">Деплой на GitHub Pages с первого раза</div></div>
+          <span class="dur">0:34</span>
+        </a>
+        <div class="body">
+          <h3>Деплой на GitHub Pages с первого раза</h3>
+          <div class="meta">
+            <span>👀 2 311</span>
+            <span>10 ноября 2026 г.</span>
+          </div>
+          
+        </div>
+      </article></div>
+</main>
+<footer>
+  Собрано на <a href="https://github.com" target="_blank" rel="noopener">GitHub Pages</a> · страница генерируется автоматически из <code>data/clips.json</code>
+</footer>
+</body>
+</html>

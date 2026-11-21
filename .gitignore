@@ -1,0 +1,22 @@
+# секреты
+.env
+.env.*
+!.env.example
+
+# node
+node_modules/
+npm-debug.log*
+
+# служебное
+dist/
+_site/
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+.venv/
+__pycache__/
+
+# локальные артефакты
+data/events.json

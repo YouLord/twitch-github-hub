@@ -1,0 +1,28 @@
+{
+  "name": "twitch-github-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Всё сразу для стримера: live-бейдж в README, оверлей Coding Stats для OBS, Twitch-бот GitHub→чат и галерея клипов на GitHub Pages. Ноль зависимостей.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "demo": "DEMO=1 node src/server.js",
+    "build:gallery": "node scripts/build-gallery.js",
+    "update:readme": "node scripts/update-readme.js",
+    "selfcheck": "node scripts/selfcheck.js"
+  },
+  "keywords": [
+    "twitch",
+    "github",
+    "obs",
+    "overlay",
+    "streaming",
+    "chatbot",
+    "github-pages"
+  ],
+  "license": "MIT"
+}

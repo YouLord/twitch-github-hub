@@ -1,0 +1,50 @@
+name: Twitch live → README
+
+# Идея A: раз в 10 минут проверяем эфир и обновляем блок в README.
+# Ничего не хостим: всё делает GitHub Actions.
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: twitch-live-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Обновить live-блок в README
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          TWITCH_CHANNEL: ${{ vars.TWITCH_CHANNEL }}
+          GITHUB_REPO: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_WINDOW_HOURS: '24'
+        run: node scripts/update-readme.js
+
+      - name: Закоммитить изменения
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain README.md data/live.json)" ]; then
+            git add README.md data/live.json
+            git commit -m "chore(readme): обновление live-статуса Twitch [skip ci]"
+            git push
+          else
+            echo "Изменений нет"
+          fi
