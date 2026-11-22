@@ -1,24 +1,32 @@
 {
-  "updatedAt": "2026-11-22T01:54:48.882Z",
+  "updatedAt": "2026-11-22T09:23:47.391Z",
   "demo": false,
   "channel": null,
   "repo": {
     "fullName": "YouLord/twitch-github-hub",
-    "stars": 0,
+    "stars": 1,
     "activity": {
       "windowHours": 24,
-      "commits": 1,
-      "additions": 3405,
-      "deletions": 0,
+      "commits": 2,
+      "additions": 3445,
+      "deletions": 10,
       "latestCommit": {
-        "sha": "362edc8514b531e7794cb026ef61920d67bf2fce",
-        "message": "feat: twitch x github hub - overlay, README live status, chat bot, clip gallery",
-        "author": "YouLord",
-        "avatar": "",
-        "date": "2026-11-21T21:51:31Z",
-        "url": "https://github.com/YouLord/twitch-github-hub/commit/362edc8514b531e7794cb026ef61920d67bf2fce"
+        "sha": "46f0f96e645b1f8df70047e7d116c42cbd08fd35",
+        "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
+        "author": "github-actions[bot]",
+        "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+        "date": "2026-11-22T01:54:48Z",
+        "url": "https://github.com/YouLord/twitch-github-hub/commit/46f0f96e645b1f8df70047e7d116c42cbd08fd35"
       },
       "recent": [
+        {
+          "sha": "46f0f96e645b1f8df70047e7d116c42cbd08fd35",
+          "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
+          "author": "github-actions[bot]",
+          "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "date": "2026-11-22T01:54:48Z",
+          "url": "https://github.com/YouLord/twitch-github-hub/commit/46f0f96e645b1f8df70047e7d116c42cbd08fd35"
+        },
         {
           "sha": "362edc8514b531e7794cb026ef61920d67bf2fce",
           "message": "feat: twitch x github hub - overlay, README live status, chat bot, clip gallery",

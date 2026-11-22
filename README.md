@@ -20,11 +20,11 @@
 
 ---
 
-📦 **[YouLord/twitch-github-hub](https://github.com/YouLord/twitch-github-hub)** · ⭐ 0 · 🍴 0 · 🐞 0 issues · 🔀 0 PR · JavaScript
+📦 **[YouLord/twitch-github-hub](https://github.com/YouLord/twitch-github-hub)** · ⭐ 1 · 🍴 0 · 🐞 0 issues · 🔀 0 PR · JavaScript
 
-📊 За 24 ч: **1** коммитов, **+3 405 / −0** строк · последний коммит 4 ч назад
+📊 За 24 ч: **2** коммитов, **+3 445 / −10** строк · последний коммит 7 ч назад
 
-`YouLord: feat: twitch x github hub - overlay, README live status, chat bot, clip gallery`
+`github-actions[bot]: chore(readme): обновление live-статуса Twitch [skip ci]`
 
 <!-- TWITCH:END -->
 
