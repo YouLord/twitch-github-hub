@@ -1,0 +1,34 @@
+{
+  "updatedAt": "2026-11-22T01:54:48.882Z",
+  "demo": false,
+  "channel": null,
+  "repo": {
+    "fullName": "YouLord/twitch-github-hub",
+    "stars": 0,
+    "activity": {
+      "windowHours": 24,
+      "commits": 1,
+      "additions": 3405,
+      "deletions": 0,
+      "latestCommit": {
+        "sha": "362edc8514b531e7794cb026ef61920d67bf2fce",
+        "message": "feat: twitch x github hub - overlay, README live status, chat bot, clip gallery",
+        "author": "YouLord",
+        "avatar": "",
+        "date": "2026-11-21T21:51:31Z",
+        "url": "https://github.com/YouLord/twitch-github-hub/commit/362edc8514b531e7794cb026ef61920d67bf2fce"
+      },
+      "recent": [
+        {
+          "sha": "362edc8514b531e7794cb026ef61920d67bf2fce",
+          "message": "feat: twitch x github hub - overlay, README live status, chat bot, clip gallery",
+          "author": "YouLord",
+          "avatar": "",
+          "date": "2026-11-21T21:51:31Z",
+          "url": "https://github.com/YouLord/twitch-github-hub/commit/362edc8514b531e7794cb026ef61920d67bf2fce"
+        }
+      ]
+    }
+  },
+  "lastSeen": null
+}

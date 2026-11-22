@@ -12,23 +12,19 @@
 <!-- TWITCH:START -->
 <!-- Блок обновляется автоматически: .github/workflows/twitch-live.yml -->
 
-### 🔴 Сейчас в эфире · [Your Channel](https://twitch.tv/your_channel)
+### 💤 Офлайн
 
-> **Пишу GitHub-интеграцию для стрима | !gh !stats !clip**
+> Скоро вернусь в эфир — подписывайся, чтобы не пропустить.
 >
-> 🎮 Software and Game Development · 👀 1 284 зрителей · ⏱ в эфире 2 ч 14 мин
-
-**[▸ Смотреть стрим](https://twitch.tv/your_channel)**
+> **[▸ Канал на Twitch](https://twitch.tv/)** · [Подписаться](https://twitch.tv//subscribe)
 
 ---
 
-📦 **[octocat/Hello-World](https://github.com/octocat/Hello-World)** · ⭐ 2 741 · 🍴 1 380 · 🐞 12 issues · 🔀 3 PR · TypeScript
+📦 **[YouLord/twitch-github-hub](https://github.com/YouLord/twitch-github-hub)** · ⭐ 0 · 🍴 0 · 🐞 0 issues · 🔀 0 PR · JavaScript
 
-📊 За 24 ч: **17** коммитов, **+1 462 / −318** строк · последний коммит 4 мин назад
+📊 За 24 ч: **1** коммитов, **+3 405 / −0** строк · последний коммит 4 ч назад
 
-`octocat: feat(overlay): плавная анимация счётчиков`
-
-<!-- данные демо-режима: заполни секреты репозитория, чтобы включить живую статистику -->
+`YouLord: feat: twitch x github hub - overlay, README live status, chat bot, clip gallery`
 
 <!-- TWITCH:END -->
 
