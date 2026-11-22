@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T17:18:03.876Z",
+  "updatedAt": "2026-11-22T22:35:15.342Z",
   "demo": false,
   "channel": null,
   "repo": {
@@ -8,17 +8,25 @@
     "activity": {
       "windowHours": 24,
       "commits": 3,
-      "additions": 3467,
-      "deletions": 24,
+      "additions": 78,
+      "deletions": 32,
       "latestCommit": {
-        "sha": "858b36b0a7c17ec9b665ed7aaf8e5c7b6347bea4",
+        "sha": "2c6f076a1639e90b7d49714bd8e1e0322a255850",
         "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
         "author": "github-actions[bot]",
         "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-        "date": "2026-11-22T09:23:47Z",
-        "url": "https://github.com/YouLord/twitch-github-hub/commit/858b36b0a7c17ec9b665ed7aaf8e5c7b6347bea4"
+        "date": "2026-11-22T17:18:03Z",
+        "url": "https://github.com/YouLord/twitch-github-hub/commit/2c6f076a1639e90b7d49714bd8e1e0322a255850"
       },
       "recent": [
+        {
+          "sha": "2c6f076a1639e90b7d49714bd8e1e0322a255850",
+          "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
+          "author": "github-actions[bot]",
+          "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "date": "2026-11-22T17:18:03Z",
+          "url": "https://github.com/YouLord/twitch-github-hub/commit/2c6f076a1639e90b7d49714bd8e1e0322a255850"
+        },
         {
           "sha": "858b36b0a7c17ec9b665ed7aaf8e5c7b6347bea4",
           "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
@@ -34,14 +42,6 @@
           "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
           "date": "2026-11-22T01:54:48Z",
           "url": "https://github.com/YouLord/twitch-github-hub/commit/46f0f96e645b1f8df70047e7d116c42cbd08fd35"
-        },
-        {
-          "sha": "362edc8514b531e7794cb026ef61920d67bf2fce",
-          "message": "feat: twitch x github hub - overlay, README live status, chat bot, clip gallery",
-          "author": "YouLord",
-          "avatar": "",
-          "date": "2026-11-21T21:51:31Z",
-          "url": "https://github.com/YouLord/twitch-github-hub/commit/362edc8514b531e7794cb026ef61920d67bf2fce"
         }
       ]
     }
