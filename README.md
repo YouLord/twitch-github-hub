@@ -22,7 +22,7 @@
 
 📦 **[YouLord/twitch-github-hub](https://github.com/YouLord/twitch-github-hub)** · ⭐ 1 · 🍴 0 · 🐞 0 issues · 🔀 0 PR · JavaScript
 
-📊 За 24 ч: **3** коммитов, **+78 / −32** строк · последний коммит 5 ч назад
+📊 За 24 ч: **3** коммитов, **+53 / −37** строк · последний коммит 5 ч назад
 
 `github-actions[bot]: chore(readme): обновление live-статуса Twitch [skip ci]`
 
