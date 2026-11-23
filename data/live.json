@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T03:05:51.052Z",
+  "updatedAt": "2026-11-23T12:22:02.851Z",
   "demo": false,
   "channel": null,
   "repo": {
@@ -7,18 +7,34 @@
     "stars": 1,
     "activity": {
       "windowHours": 24,
-      "commits": 3,
-      "additions": 53,
-      "deletions": 37,
+      "commits": 4,
+      "additions": 47,
+      "deletions": 39,
       "latestCommit": {
-        "sha": "c59d7b8a32a2fedc495399193388cd87b2175229",
-        "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
-        "author": "github-actions[bot]",
-        "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-        "date": "2026-11-22T22:35:15Z",
-        "url": "https://github.com/YouLord/twitch-github-hub/commit/c59d7b8a32a2fedc495399193388cd87b2175229"
+        "sha": "2cc129765d7df59b074cdd6383a45859023332a0",
+        "message": "Update README.md",
+        "author": "YouLord",
+        "avatar": "https://avatars.githubusercontent.com/u/204016576?v=4",
+        "date": "2026-11-23T07:49:36Z",
+        "url": "https://github.com/YouLord/twitch-github-hub/commit/2cc129765d7df59b074cdd6383a45859023332a0"
       },
       "recent": [
+        {
+          "sha": "2cc129765d7df59b074cdd6383a45859023332a0",
+          "message": "Update README.md",
+          "author": "YouLord",
+          "avatar": "https://avatars.githubusercontent.com/u/204016576?v=4",
+          "date": "2026-11-23T07:49:36Z",
+          "url": "https://github.com/YouLord/twitch-github-hub/commit/2cc129765d7df59b074cdd6383a45859023332a0"
+        },
+        {
+          "sha": "1ed324b18aeca87fc8f7717a3e2ac33c6c027f46",
+          "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
+          "author": "github-actions[bot]",
+          "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "date": "2026-11-23T03:05:51Z",
+          "url": "https://github.com/YouLord/twitch-github-hub/commit/1ed324b18aeca87fc8f7717a3e2ac33c6c027f46"
+        },
         {
           "sha": "c59d7b8a32a2fedc495399193388cd87b2175229",
           "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
@@ -34,14 +50,6 @@
           "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
           "date": "2026-11-22T17:18:03Z",
           "url": "https://github.com/YouLord/twitch-github-hub/commit/2c6f076a1639e90b7d49714bd8e1e0322a255850"
-        },
-        {
-          "sha": "858b36b0a7c17ec9b665ed7aaf8e5c7b6347bea4",
-          "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
-          "author": "github-actions[bot]",
-          "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-          "date": "2026-11-22T09:23:47Z",
-          "url": "https://github.com/YouLord/twitch-github-hub/commit/858b36b0a7c17ec9b665ed7aaf8e5c7b6347bea4"
         }
       ]
     }
