@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T10:03:28.771Z",
+  "updatedAt": "2026-11-24T20:38:05.681Z",
   "demo": false,
   "channel": null,
   "repo": {
@@ -8,17 +8,25 @@
     "activity": {
       "windowHours": 24,
       "commits": 2,
-      "additions": 49,
-      "deletions": 49,
+      "additions": 34,
+      "deletions": 50,
       "latestCommit": {
-        "sha": "b2a282ba85d81da62bb48e7062bf0f27d98c42dc",
+        "sha": "2c17322a231e731ee72645c24cdb7c75674e0c9e",
         "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
         "author": "github-actions[bot]",
         "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-        "date": "2026-11-24T00:11:23Z",
-        "url": "https://github.com/YouLord/twitch-github-hub/commit/b2a282ba85d81da62bb48e7062bf0f27d98c42dc"
+        "date": "2026-11-24T10:03:28Z",
+        "url": "https://github.com/YouLord/twitch-github-hub/commit/2c17322a231e731ee72645c24cdb7c75674e0c9e"
       },
       "recent": [
+        {
+          "sha": "2c17322a231e731ee72645c24cdb7c75674e0c9e",
+          "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
+          "author": "github-actions[bot]",
+          "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "date": "2026-11-24T10:03:28Z",
+          "url": "https://github.com/YouLord/twitch-github-hub/commit/2c17322a231e731ee72645c24cdb7c75674e0c9e"
+        },
         {
           "sha": "b2a282ba85d81da62bb48e7062bf0f27d98c42dc",
           "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
@@ -26,14 +34,6 @@
           "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
           "date": "2026-11-24T00:11:23Z",
           "url": "https://github.com/YouLord/twitch-github-hub/commit/b2a282ba85d81da62bb48e7062bf0f27d98c42dc"
-        },
-        {
-          "sha": "55cba208df5072caf295e85132ca6f358c352e4c",
-          "message": "chore(readme): обновление live-статуса Twitch [skip ci]",
-          "author": "github-actions[bot]",
-          "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-          "date": "2026-11-23T12:22:02Z",
-          "url": "https://github.com/YouLord/twitch-github-hub/commit/55cba208df5072caf295e85132ca6f358c352e4c"
         }
       ]
     }
